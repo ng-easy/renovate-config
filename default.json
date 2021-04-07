@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":enableVulnerabilityAlertsWithLabel(vulnerable)",
+    ":rebaseStalePrs",
+    ":prNotPending",
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks",
+    ":maintainLockFilesMonthly",
+    ":prHourlyLimit4",
+    "schedule:daily",
+    "local>ng-easy/renovate-config:groupAllNonMajor",
+    "local>ng-easy/renovate-config:angularWorkspace",
+    "local>ng-easy/renovate-config:nrwlWorkspace",
+    "local>ng-easy/renovate-config:clientTooling",
+    "local>ng-easy/renovate-config:githubActions"
+  ],
+  "rangeStrategy": "bump"
+}

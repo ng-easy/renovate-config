@@ -1,0 +1,34 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^cypress$", "^jest", "^ts-jest"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^@nrwl/"],
+      "excludePackagePatterns": ["^@nrwl/workspace$"]
+    },
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@nrwl/workspace"],
+      "allowedVersions": "< 12",
+      "postUpgradeTasks": {
+        "commands": [
+          "npm ci --ignore-scripts",
+          "npx nx migrate latest",
+          "npm i --ignore-scripts",
+          "npx nx migrate --run-migrations=migrations.json || true",
+          "npx nx lint --fix"
+        ],
+        "fileFilters": ["**/**"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "client tooling",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^eslint", "^@angular-eslint/", "^@typescript-eslint/", "^prettier"],
+      "postUpgradeTasks": {
+        "commands": ["npm ci --ignore-scripts", "npx nx lint --fix"],
+        "fileFilters": ["**/**"]
+      }
+    }
+  ]
+}
