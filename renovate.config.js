@@ -16,5 +16,6 @@ module.exports = {
     '^npx ng update',
     '^npx nx migrate',
     '^npx nx lint',
+    '^rm -f migrations.json',
   ],
 };
