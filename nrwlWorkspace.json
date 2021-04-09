@@ -12,7 +12,8 @@
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
       "matchPackagePatterns": ["^@nrwl/"],
-      "excludePackagePatterns": ["^@nrwl/workspace$"]
+      "excludePackagePatterns": ["^@nrwl/workspace$"],
+      "enabled": false
     },
     {
       "groupName": "Nrwl workspace",
@@ -22,8 +23,8 @@
         "commands": [
           "npm ci --ignore-scripts",
           "npx nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
-          "npm i --ignore-scripts",
           "npx nx migrate --run-migrations=migrations.json || true",
+          "rm -f migrations.json || true",
           "npx nx lint --fix"
         ],
         "fileFilters": ["**/**"]
