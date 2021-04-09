@@ -21,7 +21,7 @@
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
-          "npx nx migrate latest --from={{{replace '^[^\\d]*' '' currentValue}}}",
+          "npx nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
           "npm i --ignore-scripts",
           "npx nx migrate --run-migrations=migrations.json || true",
           "npx nx lint --fix"
