@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "supportPolicy": ["lts_latest"],
+  "packageRules": [
+    {
+      "groupName": "Node",
+      "matchManagers": ["node", "npm"],
+      "matchUpdateTypes": ["major", "minor", "bump"],
+      "enabled": false
+    }
+  ]
+}
