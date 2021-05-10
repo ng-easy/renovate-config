@@ -10,12 +10,5 @@ module.exports = {
   autodiscover: false,
   trustLevel: 'high',
   allowPostUpgradeCommandTemplating: true,
-  allowedPostUpgradeCommands: [
-    '^npm ci --ignore-scripts$',
-    '^npm i --ignore-scripts$',
-    '^npx ng update',
-    '^npx nx migrate',
-    '^npx nx lint',
-    '^rm -f migrations.json',
-  ],
+  allowedPostUpgradeCommands: ['^npm ci', '^npm i', '^npx ng update', '^npx nx migrate', '^npx nx lint', '^rm -f migrations.json'],
 };
