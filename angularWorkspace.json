@@ -35,7 +35,8 @@
         "commands": [
           "npm ci --ignore-scripts",
           "npx ng update {{{depName}}} --from={{{replace '^[^\\d]*' '' currentValue}}} --to={{{replace '^[^\\d]*' '' newValue}}} --migrate-only --allow-dirty --force",
-          "npx nx lint --fix --skip-nx-cache"
+          "npx nx workspace-lint",
+          "npx nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
         ],
         "fileFilters": ["**/**"]
       }

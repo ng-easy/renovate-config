@@ -25,7 +25,8 @@
           "npx nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
           "npx nx migrate --run-migrations=migrations.json || true",
           "rm -f migrations.json || true",
-          "npx nx lint --fix --skip-nx-cache"
+          "npx nx workspace-lint",
+          "npx nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
         ],
         "fileFilters": ["**/**"]
       }
