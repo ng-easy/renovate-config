@@ -14,8 +14,9 @@ module.exports = {
     '^npm ci',
     '^npm i',
     '^npx ng update',
+    '^npx nx migrate',
+    '^rm -f migrations.json',
     '^npx nx workspace-lint$',
     '^npx nx run-many --target=lint --all --parallel --fix --skip-nx-cache$',
-    '^rm -f migrations.json',
   ],
 };
