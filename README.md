@@ -1,6 +1,6 @@
 # @ng-easy/renovate-config
 
-Shareable config preset for [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate). Angular and Nx dependencies require post upgrade tasks, then Renovate must be configured [self-hosted](https://docs.renovatebot.com/self-hosting/), an easy way to do it would be with [Github Action Renovate](https://github.com/renovatebot/github-action). You can find an example configuration [here](https://github.com/ng-easy/renovate/blob/master/renovate.config.js).
+Shareable config preset for [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate). Angular and Nx dependencies require post upgrade tasks, then Renovate must be configured [self-hosted](https://docs.renovatebot.com/self-hosting/), an easy way to do it would be with [Github Action Renovate](https://github.com/renovatebot/github-action). You can find an example configuration [here](https://github.com/ng-easy/renovate-config/blob/main/renovate.config.js).
 
 ## [Default Preset](https://github.com/ng-easy/renovate-config/blob/main/default.json)
 
