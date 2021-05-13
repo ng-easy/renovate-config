@@ -4,15 +4,22 @@
     {
       "groupName": "Angular workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^tslib", "^ts-node", "^zone\\.js", "^rxjs"],
+      "matchPackagePatterns": ["^tslib", "^ts-node", "^zone\\.js"],
       "matchUpdateTypes": ["major"],
+      "enabled": false
+    },
+        {
+      "groupName": "Angular workspace",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^rxjs"],
+      "matchUpdateTypes": ["major", "minor"],
       "enabled": false
     },
     {
       "groupName": "Angular workspace",
       "matchManagers": ["npm"],
       "matchPackagePatterns": ["^typescript"],
-      "allowedVersions": "<= 4.2.0"
+      "allowedVersions": "< 4.3.0"
     },
     {
       "groupName": "Angular workspace",
