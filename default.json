@@ -9,7 +9,7 @@
     ":automergeRequireAllStatusChecks",
     ":maintainLockFilesMonthly",
     ":prHourlyLimit4",
-    "schedule:daily",
+    "schedule:nonOfficeHours",
     "local>ng-easy/renovate-config:npm",
     "local>ng-easy/renovate-config:groupAllNonMajor",
     "local>ng-easy/renovate-config:angularWorkspace",
