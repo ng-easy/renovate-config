@@ -22,11 +22,11 @@
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
-          "npx nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
-          "npx nx migrate --run-migrations=migrations.json || true",
+          "npx --no-install nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
+          "npx --no-install nx migrate --run-migrations=migrations.json || true",
           "rm -f migrations.json || true",
-          "npx nx workspace-lint",
-          "npx nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
+          "npx --no-install nx workspace-lint",
+          "npx --no-install nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
         ],
         "fileFilters": ["**/**"]
       }

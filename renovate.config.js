@@ -11,12 +11,11 @@ module.exports = {
   trustLevel: 'high',
   allowPostUpgradeCommandTemplating: true,
   allowedPostUpgradeCommands: [
-    '^npm ci',
-    '^npm i',
-    '^npx ng update',
-    '^npx nx migrate',
-    '^rm -f migrations.json',
-    '^npx nx workspace-lint$',
-    '^npx nx run-many --target=lint --all --parallel --fix --skip-nx-cache$',
+    '^npm ci --ignore-scripts$',
+    '^npx --no-install ng update',
+    '^npx --no-install nx migrate',
+    '^rm -f migrations.json || true$',
+    '^npx --no-install nx workspace-lint$',
+    '^npx --no-install nx run-many --target=lint --all --parallel --fix --skip-nx-cache$',
   ],
 };

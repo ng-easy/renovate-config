@@ -8,8 +8,8 @@
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
-          "npx nx workspace-lint",
-          "npx nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
+          "npx --no-install nx workspace-lint",
+          "npx --no-install nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
         ],
         "fileFilters": ["**/**"]
       }
