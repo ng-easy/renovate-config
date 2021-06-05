@@ -15,7 +15,7 @@
       "commitMessageAction": ":arrow_down: roll back"
     },
     {
-      "updateTypes": ["digest", "bump"],
+      "updateTypes": ["digest"],
       "commitMessageAction": ":bookmark: update"
     }
   ]

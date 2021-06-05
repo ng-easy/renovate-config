@@ -51,3 +51,17 @@ Groups all dependencies related to Github actions:
 ```json
 "extends": ["github>@ng-easy/renovate-config:githubActions"]
 ```
+
+## [Gitmoji Conventional Commits](https://github.com/ng-easy/renovate-config/blob/main/gitmoji.json)
+
+Adds a :sparkles: gitmoji :sparkles: to the commit message:
+
+```json
+"extends": ["github>@ng-easy/renovate-config:gitmoji"]
+```
+
+Examples:
+
+* chore(deps): :arrow_up: update dependency
+* fix(deps): :lock: refresh package-lock.json
+* fix(deps): :arrow_down: roll back dependency
