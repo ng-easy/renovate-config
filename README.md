@@ -62,6 +62,6 @@ Adds a :sparkles: gitmoji :sparkles: to the commit message:
 
 Examples:
 
-* chore(deps): :arrow_up: update dependency
-* fix(deps): :lock: refresh package-lock.json
-* fix(deps): :arrow_down: roll back dependency
+- chore(deps): :arrow_up: update dependency
+- fix(deps): :lock: refresh package-lock.json
+- fix(deps): :arrow_down: roll back dependency

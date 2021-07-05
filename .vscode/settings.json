@@ -1,0 +1,49 @@
+{
+  "breadcrumbs.enabled": true,
+
+  "editor.mouseWheelZoom": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.rulers": [140],
+  "editor.minimap.renderCharacters": false,
+  "editor.snippetSuggestions": "top",
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "Hack",
+
+  "explorer.confirmDragAndDrop": false,
+
+  "files.autoSave": "onWindowChange",
+  "files.eol": "\n",
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai",
+
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+
+  "prettier.jsxBracketSameLine": true,
+
+  "material-icon-theme.showUpdateMessage": false,
+
+  "markdownlint.config": {
+    "default": true,
+    "MD033": false
+  },
+
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "**/node_modules",
+    "**/node_modules/**",
+    "node_modules/**",
+    "vscode-extension",
+    ".git",
+    "*.dll",
+    "**/*.dll",
+    "package.json"
+  ]
+}

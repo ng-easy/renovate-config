@@ -1,0 +1,40 @@
+{
+  "name": "@ng-easy/renovate-config",
+  "version": "0.0.0",
+  "description": "Shareable config preset for Renovate in Angular and Nx projects",
+  "keywords": [
+    "renovate",
+    "angular",
+    "dependencies",
+    "nx",
+    "npm"
+  ],
+  "author": "samuelfernandez",
+  "homepage": "https://github.com/ng-easy/renovate-config#readme",
+  "bugs": {
+    "url": "https://github.com/ng-easy/renovate-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ng-easy/renovate-config.git"
+  },
+  "engines": {
+    "node": "^14.0.0",
+    "npm": "^7.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@ng-easy/prettier-config": "^1.0.0",
+    "husky": "^6.0.0",
+    "husky-check-email": "0.0.7",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1"
+  },
+  "private": true
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx husky-check-email @users.noreply.github.com,bot@renovateapp.com,semantic-release-bot@martynus.net
+npx lint-staged

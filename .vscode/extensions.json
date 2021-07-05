@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "PKief.material-icon-theme",
+    "IBM.output-colorizer",
+    "streetsidesoftware.code-spell-checker",
+    "mhutchie.git-graph",
+    "vivaxy.vscode-conventional-commits"
+  ]
+}
