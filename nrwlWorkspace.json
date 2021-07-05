@@ -22,6 +22,7 @@
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
+          "npm run prepare --if-present",
           "npx --no-install nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
           "npx --no-install nx migrate --run-migrations=migrations.json || true",
           "rm -f migrations.json || true",

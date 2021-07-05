@@ -34,9 +34,9 @@
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
+          "npm run prepare --if-present",
           "npx --no-install ng update {{{depName}}} --from={{{replace '^[^\\d]*' '' currentValue}}} --to={{{replace '^[^\\d]*' '' newValue}}} --migrate-only --allow-dirty --force",
-          "npx --no-install nx workspace-lint",
-          "npx --no-install nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
+          "npm run format --if-present"
         ],
         "fileFilters": ["**/**"]
       }

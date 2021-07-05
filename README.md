@@ -44,6 +44,13 @@ Groups all dependencies related to linting and formatting:
 "extends": ["github>@ng-easy/renovate-config:clientTooling"]
 ```
 
+Since this can affect formatting tools such as `eslint` or `prettier`, it can potentially affect source files. After upgrading the bot will run `format` script from `npm` if present, that could include for example:
+
+```shell
+prettier . --write
+eslint . --fix
+```
+
 ## [Github Actions](https://github.com/ng-easy/renovate-config/blob/main/githubActions.json)
 
 Groups all dependencies related to Github actions:

@@ -12,6 +12,8 @@ module.exports = {
   allowPostUpgradeCommandTemplating: true,
   allowedPostUpgradeCommands: [
     '^npm ci --ignore-scripts$',
+    '^npm run prepare --if-present$',
+    '^npm run format --if-present$',
     '^npx --no-install ng update',
     '^npx --no-install nx migrate',
     '^rm -f migrations.json || true$',
