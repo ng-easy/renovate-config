@@ -3,7 +3,7 @@ module.exports = {
   dryRun: false,
   gitAuthor: 'Renovate Bot GitHub <bot@renovateapp.com>',
   platform: 'github',
-  repositories: ['ng-easy/platform', 'ng-easy/renovate-config', 'ng-easy/npm-setup'],
+  repositories: ['ng-easy/platform', 'ng-easy/renovate-config', 'ng-easy/npm-setup', 'ng-easy/workspace-release-test'],
   includeForks: false,
   dependencyDashboard: true,
   onboarding: false,
