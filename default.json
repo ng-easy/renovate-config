@@ -19,6 +19,5 @@
     "local>ng-easy/renovate-config:clientTooling",
     "local>ng-easy/renovate-config:githubActions"
   ],
-  "rangeStrategy": "bump",
-  "prCreation": "not-pending"
+  "rangeStrategy": "bump"
 }
