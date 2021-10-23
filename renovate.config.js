@@ -11,7 +11,7 @@ module.exports = {
   trustLevel: 'high',
   allowPostUpgradeCommandTemplating: true,
   allowedPostUpgradeCommands: [
-    '^npm ci --ignore-scripts$',
+    '^npm ci --ignore-scripts --no-optional$',
     '^npm run prepare --if-present$',
     '^npm run format --if-present$',
     '^npx --no-install ng update',

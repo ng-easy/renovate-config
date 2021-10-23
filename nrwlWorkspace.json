@@ -21,7 +21,7 @@
       "matchPackageNames": ["@nrwl/workspace"],
       "postUpgradeTasks": {
         "commands": [
-          "npm ci --ignore-scripts",
+          "npm ci --ignore-scripts --no-optional",
           "npm run prepare --if-present",
           "npx --no-install nx migrate latest --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}}",
           "npx --no-install nx migrate --run-migrations=migrations.json || true",
