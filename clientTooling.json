@@ -6,7 +6,7 @@
       "matchManagers": ["npm"],
       "matchPackagePatterns": ["^eslint", "^@angular-eslint/", "^@typescript-eslint/", "^prettier"],
       "postUpgradeTasks": {
-        "commands": ["npm ci --ignore-scripts --no-optional", "npm run prepare --if-present", "npm run format --if-present"],
+        "commands": ["npm ci --ignore-scripts", "npm run prepare --if-present", "npm run format --if-present"],
         "fileFilters": ["**/**"]
       }
     }
