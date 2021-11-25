@@ -34,7 +34,7 @@
     "husky": "^7.0.4",
     "husky-check-email": "0.0.7",
     "lint-staged": "^11.2.6",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.0"
   },
   "private": true
 }
