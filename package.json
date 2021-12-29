@@ -28,8 +28,8 @@
     "format": "prettier . --write"
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
     "@ng-easy/prettier-config": "^2.0.2",
     "husky": "^7.0.4",
     "husky-check-email": "0.0.7",
