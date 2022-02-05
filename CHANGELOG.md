@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ng-easy/renovate-config/compare/v1.0.0...v2.0.0) (2022-02-05)
+
+
+### Features
+
+* :sparkles: split configuration between Angular and Nx workspaces ([222e683](https://github.com/ng-easy/renovate-config/commit/222e683f3cd926a239696a25f0481ff70403e24f))
+
+
+### BREAKING CHANGES
+
+* Angular and Nx presets have to be added manually on top of default
+
 # 1.0.0 (2022-02-04)
 
 
