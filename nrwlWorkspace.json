@@ -52,6 +52,7 @@
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
       "matchPackageNames": ["@nrwl/workspace", "@angular/cli", "@angular/core", "@ngrx/store"],
+      "matchFiles": ["package.json"],
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
@@ -64,6 +65,12 @@
         ],
         "fileFilters": ["**/**"]
       }
+    },
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@nrwl/workspace", "@angular/cli", "@angular/core", "@ngrx/store"],
+      "matchPaths": ["+(/**/package.json)"]
     }
   ]
 }

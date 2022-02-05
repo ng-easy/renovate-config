@@ -26,8 +26,6 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
 
-  "prettier.jsxBracketSameLine": true,
-
   "material-icon-theme.showUpdateMessage": false,
 
   "markdownlint.config": {
@@ -46,5 +44,6 @@
     "**/*.dll",
     "package.json"
   ],
-  "conventionalCommits.scopes": ["nrwl"]
+
+  "conventionalCommits.scopes": ["client-tooling", "github", "gitmoji", "non-major", "npm", "nrwl", "self-hosted"]
 }
