@@ -45,5 +45,6 @@
     "*.dll",
     "**/*.dll",
     "package.json"
-  ]
+  ],
+  "conventionalCommits.scopes": ["nrwl"]
 }
