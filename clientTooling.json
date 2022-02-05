@@ -4,7 +4,7 @@
     {
       "groupName": "client tooling",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^eslint", "^@angular-eslint/", "^@typescript-eslint/", "^prettier"],
+      "matchPackagePatterns": ["^eslint", "/eslint-config$", "^@angular-eslint/", "^@typescript-eslint/", "^prettier", "/prettier-config$"],
       "postUpgradeTasks": {
         "commands": ["npm ci --ignore-scripts", "npm run prepare --if-present", "npm run format --if-present"],
         "fileFilters": ["**/**"]

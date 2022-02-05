@@ -6,7 +6,7 @@ You can find an example configuration [here](https://github.com/ng-easy/renovate
 
 ## [Default Preset](https://github.com/ng-easy/renovate-config/blob/main/default.json)
 
-It includes all presets included in this repo:
+It includes all presets included in this repo except for [Nx](https://nx.dev/) and [Angular](https://angular.io/) workspaces, they have to be added manually:
 
 ```json
 "extends": ["github>@ng-easy/renovate-config"]
@@ -28,13 +28,17 @@ Groups all dependencies related to [Angular](https://angular.io/), including upg
 "extends": ["github>@ng-easy/renovate-config:angularWorkspace"]
 ```
 
+> It is incompatible with preset `"github>@ng-easy/renovate-config:nrwlWorkspace"`, choose one or another
+
 ## [Nrwl Workspace](https://github.com/ng-easy/renovate-config/blob/main/nrwlWorkspace.json)
 
-Groups all dependencies related to [Nx](https://nx.dev/), including upgrade schematics:
+Groups all dependencies related to [Nx](https://nx.dev/) and [Angular](https://angular.io/), including upgrade schematics:
 
 ```json
 "extends": ["github>@ng-easy/renovate-config:nrwlWorkspace"]
 ```
+
+> It is incompatible with preset `"github>@ng-easy/renovate-config:angularWorkspace"`, choose one or another
 
 ## [Client Tooling](https://github.com/ng-easy/renovate-config/blob/main/clientTooling.json)
 

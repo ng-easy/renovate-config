@@ -14,8 +14,6 @@
     "local>ng-easy/renovate-config:gitmoji",
     "local>ng-easy/renovate-config:npm",
     "local>ng-easy/renovate-config:groupAllNonMajor",
-    "local>ng-easy/renovate-config:angularWorkspace",
-    "local>ng-easy/renovate-config:nrwlWorkspace",
     "local>ng-easy/renovate-config:clientTooling",
     "local>ng-easy/renovate-config:githubActions"
   ],
