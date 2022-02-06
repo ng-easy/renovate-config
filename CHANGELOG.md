@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/ng-easy/renovate-config/compare/v2.0.0...v2.0.1) (2022-02-06)
+
+
+### Bug Fixes
+
+* :bug: run post upgrade commands only for root package to speed-up monorepos ([bc50523](https://github.com/ng-easy/renovate-config/commit/bc50523454c486e8560cec5a64977ea32021e258))
+* **nrwl:** :bug: fix to param in migration command ([eec5fc8](https://github.com/ng-easy/renovate-config/commit/eec5fc855f44bdfcc001d2aca47010b15e97f64c))
+
 # [2.0.0](https://github.com/ng-easy/renovate-config/compare/v1.0.0...v2.0.0) (2022-02-05)
 
 
