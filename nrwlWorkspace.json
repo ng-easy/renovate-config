@@ -70,7 +70,7 @@
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
       "matchPackageNames": ["@nrwl/workspace", "@angular/cli", "@angular/core", "@ngrx/store"],
-      "matchPaths": ["+(/**/package.json)"]
+      "matchPaths": ["+(/*/**/package.json)"]
     }
   ]
 }
