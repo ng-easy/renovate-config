@@ -15,6 +15,7 @@ module.exports = {
     '^npm run prepare --if-present$',
     '^npm run format --if-present$',
     '^npx --no-install ng update',
+    '^npx --no-install ng lint',
     '^npx --no-install nx migrate',
     '^rm -f migrations.json || true$',
     '^npx --no-install nx workspace-lint$',

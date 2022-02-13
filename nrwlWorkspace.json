@@ -23,7 +23,15 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@nrwl/workspace", "@angular/cli", "@angular/core", "@ngrx/store"],
+      "matchPackageNames": [
+        "@nrwl/workspace",
+        "@angular/cli",
+        "@angular/core",
+        "@angular/cdk",
+        "@angular/material",
+        "@ngrx/store",
+        "@ngrx/component-store"
+      ],
       "matchFiles": ["package.json"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "postUpgradeTasks": {
