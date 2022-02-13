@@ -25,6 +25,7 @@
       "matchManagers": ["npm"],
       "matchPackageNames": ["@nrwl/workspace", "@angular/cli", "@angular/core", "@ngrx/store"],
       "matchFiles": ["package.json"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
