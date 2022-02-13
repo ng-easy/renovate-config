@@ -4,47 +4,21 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^cypress$", "^jest", "^ts-jest"],
+      "matchPackagePatterns": ["^tslib", "^ts-node", "^zone\\.js", "^cypress$", "^jest", "^ts-jest"],
       "matchUpdateTypes": ["major"],
       "enabled": false
     },
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@nrwl/"],
-      "excludePackagePatterns": ["^@nrwl/workspace$"],
-      "enabled": false
-    },
-    {
-      "groupName": "Nrwl workspace",
-      "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^tslib", "^ts-node", "^zone\\.js"],
-      "matchUpdateTypes": ["major"],
-      "enabled": false
-    },
-    {
-      "groupName": "Nrwl workspace",
-      "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^rxjs"],
+      "matchPackagePatterns": ["^typescript", "^rxjs"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": false
     },
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^typescript"],
-      "matchUpdateTypes": ["major", "minor"],
-      "enabled": false
-    },
-    {
-      "groupName": "Nrwl workspace",
-      "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@ngrx/"]
-    },
-    {
-      "groupName": "Nrwl workspace",
-      "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@angular/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^zone\\.js"]
+      "matchPackagePatterns": ["^@nrwl/", "^@angular/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^zone\\.js", "^@ngrx/"]
     },
     {
       "groupName": "Nrwl workspace",
