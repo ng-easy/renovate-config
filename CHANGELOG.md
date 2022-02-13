@@ -1,3 +1,14 @@
+## [2.0.2](https://github.com/ng-easy/renovate-config/compare/v2.0.1...v2.0.2) (2022-02-13)
+
+
+### Bug Fixes
+
+* **angular:** fix post upgrade tasks ([ce6dc95](https://github.com/ng-easy/renovate-config/commit/ce6dc95a2fb0e4e0616573720221038e02972be3))
+* **nrwl:** adjust match update type ([06732aa](https://github.com/ng-easy/renovate-config/commit/06732aa157ba157e4a39a4dfcca3e72f1e04993a))
+* **nrwl:** fix path of match rule that doesn't run upgrade scripts ([e8d8b19](https://github.com/ng-easy/renovate-config/commit/e8d8b197917bd46d647d1b646c9c561dc4d3c425))
+* **nrwl:** simplify rules ([520b77c](https://github.com/ng-easy/renovate-config/commit/520b77cfeb7655cadf6c59b4d79ddb5503729a34))
+* **nrwl:** try without additional rule ([c08129f](https://github.com/ng-easy/renovate-config/commit/c08129f8490b6e55e28d63d72d55dc06219b3f8a))
+
 ## [2.0.1](https://github.com/ng-easy/renovate-config/compare/v2.0.0...v2.0.1) (2022-02-06)
 
 
