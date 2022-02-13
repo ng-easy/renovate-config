@@ -39,14 +39,12 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@ngrx/"],
-      "excludePackagePatterns": ["^@ngrx/store$"]
+      "matchPackagePatterns": ["^@ngrx/"]
     },
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@angular/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^zone\\.js"],
-      "excludePackagePatterns": ["^@angular/(?:core|cli)$"]
+      "matchPackagePatterns": ["^@angular/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^zone\\.js"]
     },
     {
       "groupName": "Nrwl workspace",
@@ -65,12 +63,6 @@
         ],
         "fileFilters": ["**/**"]
       }
-    },
-    {
-      "groupName": "Nrwl workspace",
-      "matchManagers": ["npm"],
-      "matchPackageNames": ["@nrwl/workspace", "@angular/cli", "@angular/core", "@ngrx/store"],
-      "matchPaths": ["+(/*/**/package.json)"]
     }
   ]
 }
