@@ -9,6 +9,7 @@
     ":automergeRequireAllStatusChecks",
     ":maintainLockFilesMonthly",
     ":prHourlyLimit4",
+    ":semanticCommits",
     "schedule:weekly",
     "github>whitesource/merge-confidence:beta",
     "local>ng-easy/renovate-config:gitmoji",
