@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/ng-easy/renovate-config/compare/v2.0.2...v2.0.3) (2022-02-15)
+
+
+### Bug Fixes
+
+* force semantic commits ([bcd10ce](https://github.com/ng-easy/renovate-config/commit/bcd10ce8038ccd913a9f266ecbd8b60c5d175440))
+
 ## [2.0.2](https://github.com/ng-easy/renovate-config/compare/v2.0.1...v2.0.2) (2022-02-13)
 
 
