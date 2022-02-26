@@ -5,7 +5,17 @@
       "groupName": "all non-major dependencies",
       "matchManagers": ["npm"],
       "matchPackagePatterns": [".*"],
-      "matchUpdateTypes": ["minor", "patch", "bump"]
+      "matchDepTypes": ["dependencies", "peerDependencies", "optionalDependencies"],
+      "matchUpdateTypes": ["minor", "patch", "bump"],
+      "semanticCommitType": "fix"
+    },
+    {
+      "groupName": "all non-major dev dependencies",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": [".*"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch", "bump"],
+      "semanticCommitType": "chore"
     }
   ]
 }

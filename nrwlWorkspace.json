@@ -18,7 +18,14 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@nrwl/", "^@angular/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^zone\\.js", "^@ngrx/"]
+      "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/"],
+      "semanticCommitType": "fix"
+    },
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^@nrwl/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node"],
+      "semanticCommitType": "chore"
     },
     {
       "groupName": "Nrwl workspace",

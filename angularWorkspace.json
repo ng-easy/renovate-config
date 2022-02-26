@@ -18,7 +18,14 @@
     {
       "groupName": "Angular workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@angular/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^zone\\.js", "^@ngrx/"]
+      "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/"],
+      "semanticCommitType": "fix"
+    },
+    {
+      "groupName": "Angular workspace",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node"],
+      "semanticCommitType": "chore"
     },
     {
       "groupName": "Angular workspace",
