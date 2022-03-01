@@ -1,14 +1,12 @@
 # [2.1.0](https://github.com/ng-easy/renovate-config/compare/v2.0.3...v2.1.0) (2022-02-27)
 
-
 ### Bug Fixes
 
-* :bug: reorder semantic commit type rules ([67bae31](https://github.com/ng-easy/renovate-config/commit/67bae314121e91da8ac6e5dd3282148eae2756a8))
-
+- :bug: reorder semantic commit type rules ([67bae31](https://github.com/ng-easy/renovate-config/commit/67bae314121e91da8ac6e5dd3282148eae2756a8))
 
 ### Features
 
-* :sparkles: improve semantic release type to match semver ([d2ecd94](https://github.com/ng-easy/renovate-config/commit/d2ecd947c54742161c9d0fe021d0efaf72125d0c))
+- :sparkles: improve semantic release type to match semver ([d2ecd94](https://github.com/ng-easy/renovate-config/commit/d2ecd947c54742161c9d0fe021d0efaf72125d0c))
 
 ## [2.0.3](https://github.com/ng-easy/renovate-config/compare/v2.0.2...v2.0.3) (2022-02-15)
 
