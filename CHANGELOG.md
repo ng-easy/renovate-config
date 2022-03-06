@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/ng-easy/renovate-config/compare/v2.1.0...v2.1.1) (2022-03-06)
+
+
+### Bug Fixes
+
+* **client-tooling:** :bug: client tooling don't create duplicate PRs ([58b3bba](https://github.com/ng-easy/renovate-config/commit/58b3bba9e88b10424a9478a003a5ddc0dee1452a))
+
 # [2.1.0](https://github.com/ng-easy/renovate-config/compare/v2.0.3...v2.1.0) (2022-02-27)
 
 ### Bug Fixes
