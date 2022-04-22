@@ -18,13 +18,15 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@nrwl/", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node"],
+      "matchPackagePatterns": ["^@nrwl/", "^nx$", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "semanticCommitType": "chore"
     },
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
       "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "semanticCommitType": "fix"
     },
     {
