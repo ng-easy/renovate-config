@@ -1,3 +1,16 @@
+# [3.1.0](https://github.com/ng-easy/renovate-config/compare/v3.0.0...v3.1.0) (2022-04-22)
+
+
+### Bug Fixes
+
+* :bug: fix concurrent limit config to 10 ([dee78c1](https://github.com/ng-easy/renovate-config/commit/dee78c12a5fe59de2950fb4e3f97dcec323cda6b))
+* :bug: split maintenance into a separate PR ([a6d69d7](https://github.com/ng-easy/renovate-config/commit/a6d69d7a9fecbe583cc01a81bdae0b9d3daa7a0e))
+
+
+### Features
+
+* :memo: change to default schedule weekends ([8792bc5](https://github.com/ng-easy/renovate-config/commit/8792bc52bc3857134487e181dd722eecf4d48c2d))
+
 # [3.0.0](https://github.com/ng-easy/renovate-config/compare/v2.1.2...v3.0.0) (2022-04-22)
 
 
