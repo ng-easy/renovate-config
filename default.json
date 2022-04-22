@@ -8,7 +8,7 @@
     ":automergeMinor",
     ":automergeRequireAllStatusChecks",
     ":maintainLockFilesMonthly",
-    ":prConcurrentLimit",
+    ":prConcurrentLimit10",
     ":semanticCommits",
     "schedule:weekends",
     "github>whitesource/merge-confidence:beta",

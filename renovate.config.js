@@ -1,6 +1,6 @@
 module.exports = {
   branchPrefix: 'renovate-github/',
-  dryRun: false,
+  dryRun: null,
   gitAuthor: 'Renovate Bot GitHub <bot@renovateapp.com>',
   platform: 'github',
   repositories: ['ng-easy/platform', 'ng-easy/renovate-config', 'ng-easy/npm-setup', 'ng-easy/workspace-release-test'],
@@ -8,7 +8,9 @@ module.exports = {
   dependencyDashboard: true,
   onboarding: false,
   autodiscover: false,
-  trustLevel: 'high',
+  allowCustomCrateRegistries: true,
+  allowScripts: true,
+  exposeAllEnv: true,
   allowPostUpgradeCommandTemplating: true,
   allowedPostUpgradeCommands: [
     '^npm ci --ignore-scripts$',
