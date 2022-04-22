@@ -10,7 +10,7 @@
     ":maintainLockFilesMonthly",
     ":prConcurrentLimit",
     ":semanticCommits",
-    "schedule:weekly",
+    "schedule:weekends",
     "github>whitesource/merge-confidence:beta",
     "local>ng-easy/renovate-config:gitmoji",
     "local>ng-easy/renovate-config:npm",
