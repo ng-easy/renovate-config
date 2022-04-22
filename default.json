@@ -8,7 +8,7 @@
     ":automergeMinor",
     ":automergeRequireAllStatusChecks",
     ":maintainLockFilesMonthly",
-    ":prHourlyLimit4",
+    ":prConcurrentLimit",
     ":semanticCommits",
     "schedule:weekly",
     "github>whitesource/merge-confidence:beta",
@@ -16,6 +16,7 @@
     "local>ng-easy/renovate-config:npm",
     "local>ng-easy/renovate-config:groupAllNonMajor",
     "local>ng-easy/renovate-config:clientTooling",
+    "local>ng-easy/renovate-config:maintenance",
     "local>ng-easy/renovate-config:githubActions"
   ],
   "rangeStrategy": "bump"
