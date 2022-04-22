@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/ng-easy/renovate-config/compare/v2.1.1...v2.1.2) (2022-04-22)
+
+
+### Bug Fixes
+
+* **nrwl:** :bug: include nx in the nrwl workspace and separate maintenance PRs ([b4e2dc9](https://github.com/ng-easy/renovate-config/commit/b4e2dc97b46383dc091aa690dd891cc9308e3431)), closes [#133](https://github.com/ng-easy/renovate-config/issues/133)
+
 ## [2.1.1](https://github.com/ng-easy/renovate-config/compare/v2.1.0...v2.1.1) (2022-03-06)
 
 ### Bug Fixes
