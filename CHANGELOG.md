@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/ng-easy/renovate-config/compare/v2.1.2...v3.0.0) (2022-04-22)
+
+
+### chore
+
+* **node:** :sparkles: upgrade to node v16 and npm v8.5.5 ([26fe9ec](https://github.com/ng-easy/renovate-config/commit/26fe9ec1e993dd025831047658ff5c2f8c8e26b1))
+
+
+### BREAKING CHANGES
+
+* **node:** upgrade major version of node and npm
+
 ## [2.1.2](https://github.com/ng-easy/renovate-config/compare/v2.1.1...v2.1.2) (2022-04-22)
 
 
