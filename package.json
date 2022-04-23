@@ -25,7 +25,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "lint": "prettier . --check"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
