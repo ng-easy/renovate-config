@@ -1,5 +1,7 @@
 # @ng-easy/renovate-config
 
+[![CI](https://github.com/ng-easy/renovate-config/actions/workflows/ci.yml/badge.svg)](https://github.com/ng-easy/renovate-config/actions/workflows/ci.yml) [![renovate](https://img.shields.io/badge/maintaied%20with-renovate-blue?logo=renovatebot)](https://app.renovatebot.com/dashboard)
+
 Shareable config preset for [Renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate). Angular and Nx dependencies require post upgrade tasks, then Renovate must be configured [self-hosted](https://docs.renovatebot.com/self-hosting/), an easy way to do it would be with [Github Action Renovate](https://github.com/renovatebot/github-action).
 
 You can find an example configuration [here](https://github.com/ng-easy/renovate-config/blob/main/renovate.config.js) and GitHub workflow [here](https://github.com/ng-easy/renovate-config/blob/main/.github/workflows/renovate.yml).
