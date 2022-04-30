@@ -29,12 +29,12 @@
     "lint": "prettier . --check"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "@ng-easy/prettier-config": "^5.0.0",
     "husky": "^7.0.4",
     "husky-check-email": "0.0.7",
-    "lint-staged": "^12.4.0"
+    "lint-staged": "^12.4.1"
   },
   "private": true
 }
