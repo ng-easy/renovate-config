@@ -11,8 +11,15 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^typescript", "^rxjs"],
+      "matchPackagePatterns": ["^typescript"],
       "matchUpdateTypes": ["major", "minor"],
+      "enabled": false
+    },
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^rxjs"],
+      "matchUpdateTypes": ["major"],
       "enabled": false
     },
     {
