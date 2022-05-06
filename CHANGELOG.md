@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/ng-easy/renovate-config/compare/v3.1.0...v3.2.0) (2022-05-06)
+
+
+### Features
+
+* **rxjs:** enable minor upgrades ([#183](https://github.com/ng-easy/renovate-config/issues/183)) ([8051168](https://github.com/ng-easy/renovate-config/commit/8051168d756ad2627f2f6e4c21f3c0177988e480))
+
 # [3.1.0](https://github.com/ng-easy/renovate-config/compare/v3.0.0...v3.1.0) (2022-04-22)
 
 
