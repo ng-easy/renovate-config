@@ -39,14 +39,14 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@nrwl/workspace"],
+      "matchPackagePatterns": ["^@nrwl/", "^nx$"],
       "matchFiles": ["package.json"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "postUpgradeTasks": {
         "commands": [
           "npm ci --ignore-scripts",
           "npm run prepare --if-present",
-          "npx --no-install nx migrate {{{replace '^[^\\d]*' '' newValue}}}",
+          "npx --no-install nx migrate {{{depName}}} --from={{{depName}}}@{{{replace '^[^\\d]*' '' currentValue}}} --to={{{depName}}}@{{{replace '^[^\\d]*' '' newValue}}}",
           "npx --no-install nx migrate --run-migrations=migrations.json || true",
           "rm -f migrations.json || true",
           "npx --no-install nx workspace-lint",
