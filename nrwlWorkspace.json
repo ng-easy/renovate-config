@@ -39,15 +39,26 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackageNames": [
-        "@nrwl/workspace",
-        "@angular/cli",
-        "@angular/core",
-        "@angular/cdk",
-        "@angular/material",
-        "@ngrx/store",
-        "@ngrx/component-store"
-      ],
+      "matchPackageNames": ["@nrwl/workspace"],
+      "matchFiles": ["package.json"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
+      "postUpgradeTasks": {
+        "commands": [
+          "npm ci --ignore-scripts",
+          "npm run prepare --if-present",
+          "npx --no-install nx migrate {{{replace '^[^\\d]*' '' newValue}}}",
+          "npx --no-install nx migrate --run-migrations=migrations.json || true",
+          "rm -f migrations.json || true",
+          "npx --no-install nx workspace-lint",
+          "npx --no-install nx run-many --target=lint --all --parallel --fix --skip-nx-cache"
+        ],
+        "fileFilters": ["**/**"]
+      }
+    },
+    {
+      "groupName": "Nrwl workspace",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@angular/cli", "@angular/core", "@angular/cdk", "@angular/material", "@ngrx/store", "@ngrx/component-store"],
       "matchFiles": ["package.json"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "postUpgradeTasks": {
