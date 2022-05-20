@@ -1,3 +1,11 @@
+## [3.2.1](https://github.com/ng-easy/renovate-config/compare/v3.2.0...v3.2.1) (2022-05-20)
+
+
+### Bug Fixes
+
+* **nrwl:** :bug: execute all upgrade for [@nrwl](https://github.com/nrwl) packages not only workspace ([#197](https://github.com/ng-easy/renovate-config/issues/197)) ([4db0551](https://github.com/ng-easy/renovate-config/commit/4db05519521a7fad987e93a09769772ac4cd7c05))
+* **nrwl:** :bug: run migrations for all [@nrwl](https://github.com/nrwl) packages ([#198](https://github.com/ng-easy/renovate-config/issues/198)) ([6ee1a42](https://github.com/ng-easy/renovate-config/commit/6ee1a4297e88afff1e23f0fdb398aaa94e0d56ab))
+
 # [3.2.0](https://github.com/ng-easy/renovate-config/compare/v3.1.0...v3.2.0) (2022-05-06)
 
 
