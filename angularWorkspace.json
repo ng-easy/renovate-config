@@ -32,7 +32,7 @@
     {
       "groupName": "Angular workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/"],
+      "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/", "^@ng-easy/"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "semanticCommitType": "fix"
     },
