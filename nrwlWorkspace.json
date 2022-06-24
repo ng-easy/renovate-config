@@ -25,16 +25,16 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@nrwl/", "^nx$", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node"],
+      "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/", "^@ng-easy/"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
-      "semanticCommitType": "chore"
+      "semanticCommitType": "fix"
     },
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/", "^@ng-easy/"],
+      "matchPackagePatterns": ["^@nrwl/", "^nx$", "^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^@angular-eslint/"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
-      "semanticCommitType": "fix"
+      "semanticCommitType": "chore"
     },
     {
       "groupName": "Nrwl workspace",
@@ -58,7 +58,15 @@
     {
       "groupName": "Nrwl workspace",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@angular/cli", "@angular/core", "@angular/cdk", "@angular/material", "@ngrx/store", "@ngrx/component-store"],
+      "matchPackageNames": [
+        "@angular/cli",
+        "@angular/core",
+        "@angular/cdk",
+        "@angular/material",
+        "@angular-eslint/schematics",
+        "@ngrx/store",
+        "@ngrx/component-store"
+      ],
       "matchFiles": ["package.json"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "postUpgradeTasks": {

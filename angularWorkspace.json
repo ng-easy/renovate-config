@@ -25,13 +25,6 @@
     {
       "groupName": "Angular workspace",
       "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node"],
-      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
-      "semanticCommitType": "chore"
-    },
-    {
-      "groupName": "Angular workspace",
-      "matchManagers": ["npm"],
       "matchPackagePatterns": ["^@angular/", "^zone\\.js", "^@ngrx/", "^@ng-easy/"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "semanticCommitType": "fix"
@@ -39,7 +32,22 @@
     {
       "groupName": "Angular workspace",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@angular/core", "@angular/cli", "@angular/cdk", "@angular/material", "@ngrx/store", "@ngrx/component-store"],
+      "matchPackagePatterns": ["^@angular-devkit/", "^ng-packagr", "^tslib", "^ts-node", "^@angular-eslint/"],
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"],
+      "semanticCommitType": "chore"
+    },
+    {
+      "groupName": "Angular workspace",
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "@angular/core",
+        "@angular/cli",
+        "@angular/cdk",
+        "@angular/material",
+        "@angular-eslint/schematics",
+        "@ngrx/store",
+        "@ngrx/component-store"
+      ],
       "matchFiles": ["package.json"],
       "matchUpdateTypes": ["major", "minor", "patch", "pin"],
       "postUpgradeTasks": {
