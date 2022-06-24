@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/ng-easy/renovate-config/compare/v3.2.1...v3.3.0) (2022-06-24)
+
+
+### Features
+
+* **npm:** :sparkles: group @ng-easy/* packages under the Angular/Nrwl workspace ([88590c0](https://github.com/ng-easy/renovate-config/commit/88590c08055385830bd38ab55918ac5241f0b4ef))
+
 ## [3.2.1](https://github.com/ng-easy/renovate-config/compare/v3.2.0...v3.2.1) (2022-05-20)
 
 
