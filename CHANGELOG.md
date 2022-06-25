@@ -1,3 +1,10 @@
+## [3.3.1](https://github.com/ng-easy/renovate-config/compare/v3.3.0...v3.3.1) (2022-06-25)
+
+
+### Bug Fixes
+
+* **npm:** :bug: include [@angular-eslint](https://github.com/angular-eslint) into Angular/Nrwl workspaces to sync upgrade ([ab5e65e](https://github.com/ng-easy/renovate-config/commit/ab5e65e77604192967a5fc0d2bb766321f950f95))
+
 # [3.3.0](https://github.com/ng-easy/renovate-config/compare/v3.2.1...v3.3.0) (2022-06-24)
 
 
