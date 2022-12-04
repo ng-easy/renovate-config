@@ -34,7 +34,7 @@
     "@ng-easy/prettier-config": "^5.0.49",
     "husky": "^8.0.2",
     "husky-check-email": "0.0.7",
-    "lint-staged": "^13.0.4"
+    "lint-staged": "^13.1.0"
   },
   "private": true
 }
