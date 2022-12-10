@@ -1,3 +1,10 @@
+## [3.3.2](https://github.com/ng-easy/renovate-config/compare/v3.3.1...v3.3.2) (2022-12-10)
+
+
+### Bug Fixes
+
+* let nrwl workspace migrate fail ([#374](https://github.com/ng-easy/renovate-config/issues/374)) ([c1f8dd3](https://github.com/ng-easy/renovate-config/commit/c1f8dd34abc699342c6fafcb481dfccb5ba7c874)), closes [#373](https://github.com/ng-easy/renovate-config/issues/373) [#373](https://github.com/ng-easy/renovate-config/issues/373)
+
 ## [3.3.1](https://github.com/ng-easy/renovate-config/compare/v3.3.0...v3.3.1) (2022-06-25)
 
 
