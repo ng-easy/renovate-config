@@ -29,8 +29,8 @@
     "lint": "prettier . --check"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.0",
-    "@commitlint/config-conventional": "^17.4.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "@ng-easy/prettier-config": "^5.0.50",
     "husky": "^8.0.3",
     "husky-check-email": "0.0.7",
