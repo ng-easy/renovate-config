@@ -31,7 +31,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-    "@ng-easy/prettier-config": "^5.0.50",
+    "@ng-easy/prettier-config": "^5.0.51",
     "husky": "^8.0.3",
     "husky-check-email": "0.0.7",
     "lint-staged": "^13.1.0"
